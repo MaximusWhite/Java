@@ -16,17 +16,17 @@ javac KeyDriver.java User.java Sample.java Threshold.java ACL.java
 	IMPORTANT: The order of arguments fed to the program matters!
 	*******************************************************************************************************
 
-	a. java [username] [permissions] [filename]
+	a. java KeyDriver [username] [permissions] [filename]
 
 	Running the program with this line will run it up to the form described in section 3.1 in lab manual.
 	That means, the program will check if authentication is successful and then check if the user has given permissions to given file.
 	
-	b. java -ACL [username] [permissions] [filename]
+	b. java KeyDriver -ACL [username] [permissions] [filename]
 
 	Running program with this line will enable the editing mode for ACL table saved in the file "ACL.txt"
 	That means, that after authentication the program will find the permissions of the given user for a given file and overwrite them with the given 	permissions. After that it will update ACL.txt with new matrix.
 
-	c. java [username] [permissions] [filename] -final
+	c. java KeyDriver [username] [permissions] [filename] -final
 
 	Running program with this line will run it in the form described in section 3.2 of the lab manual.
 	That is, with implemented Role-based Access.
