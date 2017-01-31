@@ -1,0 +1,9 @@
+User1|0
+User2|2
+User3|0
+User4|0
+User5|1
+
+// 0 - Sales
+// 1 - Tech
+// 2 - Manager
